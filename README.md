@@ -1,6 +1,7 @@
 # AI-Chat-MasterChief
-![Picture of Flask UI with a response](static/AI chatbot github img.png)
+
 **AI-Chat-MasterChief** is an interactive chatbot built to simulate conversations with Master Chief from the Halo universe, powered by Google's Dialogflow API. This project demonstrates my skills in API integration, natural language processing (NLP), and Python development. It showcases my ability to build full-stack applications from scratch and implement secure, real-time communication systems.
+![Picture of Flask UI with a response](static/AI%20chatbot%20github%20img.png)
 
 ## Key Features
 - **Conversational AI:** Utilizes Google's Dialogflow for natural language understanding (NLU) and natural language processing (NLP).
