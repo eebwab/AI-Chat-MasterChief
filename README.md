@@ -16,5 +16,5 @@
 - **HTML/CSS:** Build a simple yet appealing frontend for the user to enjoy.
 - **Virtual Environment:** Python's `venv` module to manage dependencies in an isolated environment.
 - **Git:** Version control for managing project code and collaboration.
-- **GitHub Actions (optional):** To set up continuous integration and deployment (if applicable).
+
 
