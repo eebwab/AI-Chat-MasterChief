@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "heisenbergai-pnyk",
+  "private_key_id": "c65e816b8259c3342ef4f570c78224671d413961",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCk8kqmblDtbeSp\nl1shShQQOvvgL2o3DMU0MkjtCr1Rs2FcBpEtoVB/MPVemh6hrVn5sVrnPD02CHFF\n9cWqu4Bol302nypZVduxhlQy5X3/zYj3dX8/1IG26hV7XNNa6/T3tmPV6JCos0o7\nlkuXoFBReTfe5AvmLLo5toElmTMYkGxBbvNydSbFNsE/u4y53Y/kDkiZLbiZ8s2h\nPueAFZWGrHJeyMcO1cs/xUlS/igMKyBYtuyV+9hkvFOUmbeqNevuCzo4ANoJBDMO\njQu4Rk8xOvUu59oUr92in3dxqbdhy6y7hu0XHL99MYLVknCDcL6+6Xhg94b6lB9z\nX/sy7HuLAgMBAAECggEAL6OKy+awmOJUWGbOex7aDJX8iRMoqh2WFy0uwseHRkF4\nrQt4gqVEinepZlk835Uhl2wRxRcw1po5nOsO2/CrdYnLMCtoH8UcXnldeBWv/mFu\nXYoh5l2J2TpiWe7FXE0pwyF6VB2HKjIeDnep/XDfwagw6r8ScLgaUPDU+/bzOvSD\n43W3JIKhNd1xaKbrR6wyYVltj/BCsYbhKQcl5h6+LxDwJnfkeE2Q3DmKI4l/CYq9\n66VpwCA28zjWd5oFc1B3had/XvVCXMmyXEmnJwH0KhYhOwBD37L7CDH9ZxG2RKv7\n9d0RA3zJj9Rzk7rZQaIYdoXd1Nj8KxSVhIWuEycEgQKBgQDleHGnbvfbUpodWIYi\nQt8gYljlTuI5Ue6VFNslgZDeWZinbMZRZnEYWkBUdNy4uW3ht6IOtzuhU94JCI52\ndaTGVtYsH8wKUGGiOHrb/Tk+TGFD7vCcNtH6aCfjNAMsv/bqnGA4qhhK/gsQdmS2\n+U2A6MMFPHdMdDbQBs6s848kxQKBgQC4BCciiwoX1HFDFyL4AkDzU6wY8E1owGvW\n9CYZPW2ArFTwf6Rk/g9QTXd0JlvT6FrmCR/UfXPya8I+o5/17z1A/ZPFFK5o5241\nb1XfcA3Hzf0+wm8kVQKHwcG6a8FpOGoQpkdJu9D99K6EAX/H3picEeYe0Ycjv3vQ\nfbpi5wFEDwKBgQCY6oeKlTdUj5ol/iz8veVk9kTZIpU8r223KTvUpZ/9nGVPBPyv\nl/27xcDixzGjY+ZmqXG0LsTtAC+Rg4M0S7dveMSmiNX29ZPqf4rX+MphypJyq9Lp\nttp87VXPYYTQGGiZ9XVlrWwc5WhIIy2AhWfxhKsZXS7+4t74B+FIfdIhJQKBgC5k\nxaUc3ueRJRkgHS3gC5YNc2c6NpoBYW7pUS2t4gy95hBYbg8USrIZRdOf1CkB/ODg\nTgkZtADbkDaQtESiE5RuGjJm+23xY0TPlBvoOWE1mvKWvMSxNhkaDYi9oB6yHXOj\nKHf7hT5x0QnxAtFWWq2GibkdZG/r2ACBoltLGHObAoGADBXBxVC3AhJ5t/EkNRMu\n4m5YEZ+l/HVL13wMyPPNJwNw0WpQUPhCjW89murU0CGkWLJVFcpox51ahk1++hhg\nPUGQXIW7JQ4GEmZzQaVA1LTPHvklZdZjqETZ97dAnG5QwEAwd1p6LQ2KcsDZ9MUw\nZMVVBq0hZBik7R2ccF0W3Yo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-service-account-mc@heisenbergai-pnyk.iam.gserviceaccount.com",
+  "client_id": "117689473568458148429",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-service-account-mc%40heisenbergai-pnyk.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

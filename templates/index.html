@@ -1,0 +1,120 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Master Chief!</title>
+    
+    <!-- Favicon link -->
+    <link rel="icon" href="{{ url_for('static', filename='mc-favicon.png') }}" type="image/png">
+
+    <style>
+        /* Ensure the video covers the whole background */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        /* Fullscreen video background */
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;  /* Ensures it covers the whole screen */
+            z-index: -1; /* Keeps the video behind the content */
+        }
+
+        /* Chatbox styling */
+        .chat-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            width: 100%;
+            text-align: center; /* Centers content inside the chat container */
+        }
+
+        h2 {
+            margin-bottom: 5px;
+        }
+
+        /* Subtitle styling */
+        .subtitle {
+            font-size: 14px;
+            font-style: italic;
+            color: lightgray;
+            margin-top: 5px;
+        }
+
+        /* Align input and button together */
+        .input-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;  /* Ensures the font size is appropriate */
+            box-sizing: border-box; /* Ensures padding is included in width */
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;  /* Smooth transition */
+        }
+
+        button:hover {
+            background-color: #45a049;  /* Darker green */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Video Background -->
+    <video class="video-background" autoplay muted loop>
+        <source src="{{ url_for('static', filename='mc-ai.mp4') }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Chatbox -->
+    <div class="chat-container">
+        <h2>Chat with Master Chief</h2>
+        <div class="subtitle">(FAQ style)</div>
+        <form action="/chat" method="post">
+            <div class="input-container">
+                <input type="text" name="user_input" placeholder="Type your message..." required>
+                <button type="submit">Send</button>
+            </div>
+        </form>
+
+        {% if user_input %}
+            <h3>Your Input:</h3>
+            <p>{{ user_input }}</p>
+            <h3>Bot's Response:</h3>
+            <p>{{ bot_response }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
