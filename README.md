@@ -12,7 +12,7 @@
 ## Technologies Used
 - **Python:** The core programming language used to build the chatbot and manage the backend logic.
 - **Google Dialogflow API:** Used for NLU and NLP to process user inputs and generate responses from Master Chief.
-- **Flask:** Lightweight web framework for handling API requests (if applicable).
+- **Flask:** Lightweight web framework for handling API requests.
 - **Pandas:** Used to parse and scrape intents from CSV files to automate fine-tuning and training of model
 - **HTML/CSS:** Build a simple yet appealing frontend for the user to enjoy.
 - **Virtual Environment:** Python's `venv` module to manage dependencies in an isolated environment.
